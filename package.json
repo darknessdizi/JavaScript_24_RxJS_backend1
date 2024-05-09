@@ -27,7 +27,7 @@
     "ws": "^7.4.2"
   },
   "engines": {
-    "node": "16.x"
+    "node": "20.x"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
