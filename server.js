@@ -14,7 +14,7 @@ app.use(koaBody({ // чтобы обработать тело запроса
 app.use(cors()); // задаем правила для политики CORS
 app.use(router()); // подключаем маршрутизатор
 
-const port = 9000;
+const port = process.env.PORT || 9000;
 
 app.listen(port, (err) => {
   // два аргумента (1-й это порт, 2-й это callback по результатам запуска сервера)
