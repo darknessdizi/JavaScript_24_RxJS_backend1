@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "npm install",
-    "start": "forever server.js",
-    "watch": "forever -w server.js",
-    "lint": "eslint ."
+    "prestart": "next npm install",
+    "start": "next forever server.js",
+    "watch": "next forever -w server.js",
+    "lint": "next eslint ."
   },
   "author": "coursar",
   "license": "ISC",
