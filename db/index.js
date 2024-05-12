@@ -20,7 +20,7 @@ const dataBase = {
     // Создание нового сообщения
     const date = faker.date.past();
     const email = faker.internet.email();
-    // let subject = faker.internet.userName();
+
     const index = email.indexOf('@');
     let subject = email.slice(0, index);
     subject = subject.replace(/[_.]/, ' ');
